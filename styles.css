@@ -63,3 +63,25 @@ footer .socials a {
     color: #ffc3c3;
     text-decoration: none;
 }
+
+body {
+    background: #fdeff9; /* Fallback color */
+    background: linear-gradient(120deg, #fdeff9, #d1e8f6);
+}
+
+.cta-buttons .btn:hover {
+    background: #ffb3b3; /* Slightly darker for better visibility */
+}
+
+.hero-image {
+    width: 80%; /* Adjusts based on screen size */
+    max-width: 200px; /* Ensures it doesn’t get too large */
+    height: auto; /* Maintains aspect ratio */
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column; /* Stack items vertically */
+        text-align: center;
+    }
+}
