@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: linear-gradient(120deg, #fdeff9, #d1e8f6);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    width: 50px;
+}
+
+.hero-image {
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+}
+
+#hero {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.cta-buttons .btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background: #ffccf9;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.cta-buttons .btn:hover {
+    background: #ffc3c3;
+}
+
+#about, #tokenomics {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+}
+
+footer .socials a {
+    margin: 0 10px;
+    color: #ffc3c3;
+    text-decoration: none;
+}
